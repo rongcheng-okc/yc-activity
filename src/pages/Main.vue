@@ -40,11 +40,20 @@
 <script>
     import { getQueryObj } from '../utils/query';
     import Modal from '../components/Modal';
+    import img1299 from '../img/price-1299.jpg';
+    import img2299 from '../img/price-2299.jpg';
+    import img3299 from '../img/price-3299.jpg';
+
+    // let priceImgs = {
+    //     '1299': require('../img/price-1299.jpg'), 
+    //     '2299': require('../img/price-2299.jpg'), 
+    //     '3299': require('../img/price-3299.jpg')
+    // };
 
     let priceImgs = {
-        '1299': require('../img/price-1299.jpg'), 
-        '2299': require('../img/price-2299.jpg'), 
-        '3299': require('../img/price-3299.jpg')
+        '1299': img1299, 
+        '2299': img2299, 
+        '3299': img3299
     };
     export default {
         data() {

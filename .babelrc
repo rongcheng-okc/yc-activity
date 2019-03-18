@@ -1,6 +1,9 @@
 {
     "presets": [
-      ["env", { "modules": false }],
-      "stage-3"
+      ["env", {
+        "target": {
+          "browsers": ["> 1%", "last 2 version", "IE 10"]
+        }
+      }]
     ]
   }
